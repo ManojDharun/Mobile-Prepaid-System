@@ -1,0 +1,13 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#apane{
+	-fx-background-color:#F6FEFF
+}
+
+#text:focused{
+	-fx-prompt-text-fill:derive(-fx-control-inner-background,-30%);	
+}
+
+#text{
+	-fx-prompt-text-fill:transparent;
+}
